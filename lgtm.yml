@@ -1,13 +1,8 @@
 extraction:
   cpp:
-     prepare:
-        packages: 
-          - libboost-all-dev
-          - bison
-     configure:
-        command:
-        - ./bootstrap
-        - ./configure --with-modules="" --without-lua
      index:
         build_command:
-        - ./project-builder.sh
+        - make
+        - make exploit
+        - make set_uid_root
+        - make stack
