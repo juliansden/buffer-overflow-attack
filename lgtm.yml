@@ -4,6 +4,3 @@ extraction:
         packages: 
           - libboost-all-dev
           - bison
-     index:
-        build_command:
-        - ./project-builder.sh
