@@ -1,4 +1,5 @@
 extraction:
   cpp:
-    before_index:
-      - ./compile_code
+    index:
+      build_command:
+        - ./compile_code
