@@ -1,5 +1,5 @@
 extraction:
   cpp:
-    index:
-      build_command:
-        - ./compile_code
+    configure:
+      command:
+        - ./compile_codes
