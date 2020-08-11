@@ -1,0 +1,4 @@
+extraction:
+  cpp:
+    before_index:
+      - ./compile_code
