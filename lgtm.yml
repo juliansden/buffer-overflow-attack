@@ -4,10 +4,6 @@ extraction:
         packages: 
           - libboost-all-dev
           - bison
-     configure:
-        command:
-        - ./bootstrap
-        - ./configure --with-modules="" --without-lua
      index:
         build_command:
         - ./project-builder.sh
